@@ -1,1 +1,37 @@
-.slider {}
+.slider {
+    height: calc(100vh - 80px);
+    width: 100vw;
+    position: relative;
+    .container {
+        display: flex;
+        width: 300vw;
+    }
+
+    img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        transform: translateX(-200vw);
+    }
+
+    .icons {
+        display: flex;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+        gap: 10px;
+        margin: auto;
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}
