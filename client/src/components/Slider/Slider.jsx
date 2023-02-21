@@ -8,9 +8,9 @@ const Slider = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
 
      const data = [
-        '/img/pexels-cottonbro-studio-4067753.jpg',
-        '/img/pexels-cottonbro-studio-4067757.jpg',
-        '/img/pexels-cottonbro-studio-4067765.jpg'
+        '/img/pexels-anastasiya-gepp-1462637.jpg',
+        '/img/pexels-clem-onojeghuo-175696.jpg',
+        '/img/pexels-elle-hughes-1549200.jpg'
      ]
 
      const prevSlide = () => {

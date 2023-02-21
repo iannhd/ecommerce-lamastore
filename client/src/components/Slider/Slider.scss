@@ -5,13 +5,14 @@
     .container {
         display: flex;
         width: 300vw;
+        transition: all ease-in 500ms;
     }
 
     img {
         width: 100vw;
         height: 100vh;
         object-fit: cover;
-        transform: translateX(-200vw);
+        // transform: translateX(-200vw);
     }
 
     .icons {
