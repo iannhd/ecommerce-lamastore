@@ -1,5 +1,6 @@
 import React from 'react'
 import './list.scss'
+import Card from '../Card/Card'
 const List = () => {
 
     const data = [
@@ -31,6 +32,34 @@ const List = () => {
             oldPrice: 26,
             price:20
         },
+        // {
+        //     id: 5,
+        //     img: '/img/list-1.jpg',
+        //     title: "list 4",
+        //     oldPrice: 26,
+        //     price:20
+        // },
+        // {
+        //     id: 6,
+        //     img: '/img/list-2.jpg',
+        //     title: "list 4",
+        //     oldPrice: 26,
+        //     price:20
+        // },
+        // {
+        //     id: 7,
+        //     img: '/img/list-3.jpg',
+        //     title: "list 4",
+        //     oldPrice: 26,
+        //     price:20
+        // },
+        // {
+        //     id: 8,
+        //     img: '/img/list-4.jpg',
+        //     title: "list 4",
+        //     oldPrice: 26,
+        //     price:20
+        // },
     ]
   return (
     <div className='list'>
